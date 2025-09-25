@@ -5,7 +5,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import './Signup.css';
 
  
-const API_URL = 'https://stock-trading-backend-pi.vercel.app/api/auth';
+const API_URL = 'https://stock-trading-backend-nu.vercel.app/api/auth';
 
 function Signup() {
     const [email, setEmail] = useState('');
