@@ -38,15 +38,16 @@ A modern, responsive frontend application for stock trading that allows users to
    git clone https://github.com/Jithin15P/stock_trading_frontend.git
 
 ## Navigate into the project directory:
-
+ ```bash
 cd stock_trading_frontend
 
-
+```
 ## Install dependencies:
-
+ ```bash
 npm install
-
+```
 
 ## Start the development server:
-
+ ```bash
 npm start  
+```
