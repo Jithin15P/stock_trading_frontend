@@ -10,7 +10,7 @@ A modern, responsive frontend application for stock trading that allows users to
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
+  
 
 ## Demo  
 [Live Demo]()
@@ -36,4 +36,17 @@ A modern, responsive frontend application for stock trading that allows users to
 1. Clone the repository:
    ```bash
    git clone https://github.com/Jithin15P/stock_trading_frontend.git
-   
+
+## Navigate into the project directory:
+
+cd stock_trading_frontend
+
+
+## Install dependencies:
+
+npm install
+
+
+## Start the development server:
+
+npm start  
