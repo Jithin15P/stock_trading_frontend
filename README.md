@@ -13,7 +13,7 @@ A modern, responsive frontend application for stock trading that allows users to
   
 
 ## Demo  
-[Live Demo]()
+[Live Demo](https://stock-trading-frontend-phi.vercel.app/)
 
 ## Features
 - View real-time stock prices and market trends.
