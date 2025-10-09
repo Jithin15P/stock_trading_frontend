@@ -51,3 +51,14 @@ npm install
  ```bash
 npm start  
 ```
+## Usage
+
+Sign up or log in to access personalized features.
+
+Search for stocks using the search bar.
+
+Add stocks to your portfolio and track performance.
+
+Analyze stock trends using interactive charts.
+
+Place mock buy/sell orders (or connect with backend for real trading).
