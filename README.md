@@ -8,8 +8,7 @@ A modern, responsive frontend application for stock trading that allows users to
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
+ 
   
 
 ## Demo  
