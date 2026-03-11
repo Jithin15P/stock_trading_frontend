@@ -4,7 +4,7 @@ function Hero() {
         <section className='conatiner-fluid' id="supportHero">
             <div className=' p-2' id="supportWrapper">
                 <h4>Support Portal </h4>
-                <a href="#">Track Tickets</a>
+                <a href="https://wayaway-production.up.railway.app/">Track Tickets</a>
             </div>
             <div className='row p-2' >
                 <div className='col-6 p-5 '>
