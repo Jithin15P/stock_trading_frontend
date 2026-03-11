@@ -18,6 +18,7 @@ function Signup() {
         e.preventDefault();
         setError('');
         try {
+         console.log('API URL:', API_URL);
             const response = await fetch(`${API_URL}/signup`, {
                 method: 'POST',
                 headers: {
