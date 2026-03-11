@@ -2,7 +2,7 @@ import React, { createContext } from 'react';
 
  
 const DASHBOARD_URL = 'https://stock-trading-dashboard-tau.vercel.app';  
-const API_URL = 'https://stock-trading-backend-nu.vercel.app/api/auth'; 
+const API_URL = 'https://stock-trading-backend-gi24.onrender.com'; 
  
 const AuthContext = createContext();
 
