@@ -27,10 +27,10 @@ function Hero() {
           <br />
 
           <div className="anchor">
-            <a href="#">Track account opening</a>
-            <a href="#">Track segment activation</a>
-            <a href="#">Intraday margins</a>
-            <a href="#">Kite user manual</a>
+            <a href="https://wayaway-production.up.railway.app/">Track account opening</a>
+            <a href="https://wayaway-production.up.railway.app/">Track segment activation</a>
+            <a href="https://wayaway-production.up.railway.app/">Intraday margins</a>
+            <a href="https://wayaway-production.up.railway.app/">Kite user manual</a>
           </div>
         </div>
 
@@ -39,13 +39,13 @@ function Hero() {
 
           <ol className="px-5" style={{ lineHeight: "2em" }}>
             <li>
-              <a href="#">
+              <a href="https://wayaway-production.up.railway.app/">
                 Surveillance measure on scrips - June 2025
               </a>
             </li>
 
             <li>
-              <a href="#">
+              <a href="https://wayaway-production.up.railway.app/">
                 Latest Intraday leverages and Square-off timings
               </a>
             </li>
