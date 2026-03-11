@@ -1,19 +1,15 @@
 import React, { createContext } from 'react';
 
- 
-const DASHBOARD_URL = 'https://stock-trading-dashboard-wxvf.onrender.com';  
-const API_URL = 'https://stock-trading-backend-gi24.onrender.com'; 
- 
+const DASHBOARD_URL = 'https://stock-trading-dashboard-wxvf.onrender.com';
+const API_URL = 'https://stock-trading-backend-gi24.onrender.com';
+
 const AuthContext = createContext();
 
- 
 export const AuthProvider = ({ children }) => {
-
     
     const loginAction = async (credentials) => {
         try {
-            
-            const response = await fetch(`${API_URL}/login`, {
+            const response = await fetch(`${API_URL}/api/auth/login`, {   // FIXED
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -23,27 +19,22 @@ export const AuthProvider = ({ children }) => {
 
             const data = await response.json();
 
-            
             if (response.ok && data.token) {
-                
                 window.location.href = `${DASHBOARD_URL}/auth?token=${data.token}`;
             } else {
-                 
                 throw new Error(data.message || 'Login failed');
             }
         } catch (err) {
             console.error(err);
-            throw err;  
+            throw err;
         }
     };
 
-   
     return (
         <AuthContext.Provider value={{ loginAction }}>
             {children}
         </AuthContext.Provider>
     );
 };
-
 
 export default AuthContext;
