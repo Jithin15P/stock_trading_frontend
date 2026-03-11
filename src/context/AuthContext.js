@@ -1,7 +1,7 @@
 import React, { createContext } from 'react';
 
  
-const DASHBOARD_URL = 'https://stock-trading-dashboard-tau.vercel.app';  
+const DASHBOARD_URL = 'https://stock-trading-dashboard-wxvf.onrender.com';  
 const API_URL = 'https://stock-trading-backend-gi24.onrender.com'; 
  
 const AuthContext = createContext();
